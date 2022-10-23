@@ -1,0 +1,37 @@
+https://openbb-finance.github.io/OpenBBTerminal/terminal/economy/macro/
+https://www.econdb.com/home
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------- Instalación de los softwares necesarios para correr OpenBB Terminal --------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
+(1) Instalar Python: https://www.python.org/
+(2) Instalar Visual Studio Code (Windows x64): https://visualstudio.microsoft.com/es/
+(3) Instalar Anaconda: https://www.anaconda.com/products/distribution
+(4) Instalar Visual Studio con C++ (Community 2022): https://visualstudio.microsoft.com/es/vs/features/cplusplus/
+
+Se debe habilitar la opción de agregar al PATH en la instalación de los puntos (1), (2) y (3)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------- Setting de OpenBB Terminal ------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
+1. Abrir el CMD
+--- Check version: python --version | >== 3.7
+------- Opcional: Update version: conda update --all
+2. conda install -c anaconda git
+3. git clone https://github.com/OpenBB-finance/OpenBBTerminal.git
+4. cd openbbterminal
+-------- git branch
+-------- git stash
+-------- git checkout main
+-------- git pull
+-------- conda env create -n obb --file build/conda/conda-3-9-env-full.yaml
+--- Check: conda env list -> obb | debe existir
+5. conda activate obb
+6. pip install -r requirements-full.txt -> Da acceso a dependencias
+7. poetry install
+8. terminal.py -> Debe estar la sección de prediction
+--- Check: está la sección de prediction?
+-------- cd openbbterminal
+-------- pip install -r requirements-full.txt
+-------- poetry install -E prediction
