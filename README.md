@@ -2,7 +2,7 @@
 OpenBB es un framework gratuito que busca brindar información financiera de manera gratuita. Este proyecto consiste en explorar las principales funciones de su API en Python: `stocks`, `econometrics`, `forecast` y `economy`.
 
 <p align="center">
-  <img src="figures/openbb.png" width="900">
+  <img src="figures/openbb.png" width="600">
 </p>
 
 La instalación se realiza mediante este proceso:
