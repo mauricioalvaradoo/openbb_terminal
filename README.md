@@ -5,6 +5,7 @@ OpenBB es un framework gratuito que busca brindar información financiera de man
   <img src="figures/openbb.png" width="200">
 </p>
 
+
 La instalación se realiza mediante este proceso:
 1. Contar con Python, Anaconda y Visual Studio para C++ (Community 2022 version). Todos agregando al PATH.
 2. En el CMD, se debe instalar Git mediante anaconda: `conda install -c anaconda git`.
